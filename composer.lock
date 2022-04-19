@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "dd657f63a0beec344e61280010303f3c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4810,6 +4810,62 @@
                 }
             ],
             "time": "2022-03-02T12:42:23+00:00"
+        },
+        {
+            "name": "thepinecode/blade-filters",
+            "version": "v0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conedevelopment/blade-filters.git",
+                "reference": "1bf68b530cd6a416de46a21fb5ee029350bc9485"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/conedevelopment/blade-filters/zipball/1bf68b530cd6a416de46a21fb5ee029350bc9485",
+                "reference": "1bf68b530cd6a416de46a21fb5ee029350bc9485",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+                "php": "^7.2.5"
+            },
+            "require-dev": {
+                "laravel/laravel": "dev-master",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "project",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pine\\BladeFilters\\BladeFiltersServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pine\\BladeFilters\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cone Development",
+                    "email": "hello@conedevelopment.com"
+                }
+            ],
+            "description": "Use filters easily in your blade templates.",
+            "support": {
+                "issues": "https://github.com/conedevelopment/blade-filters/issues",
+                "source": "https://github.com/conedevelopment/blade-filters/tree/v0.7.0"
+            },
+            "abandoned": "conedevelopment/blade-filters",
+            "time": "2020-09-16T06:37:02+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
